@@ -1,0 +1,35 @@
+<link rel="manifest" href="manifest.json">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Life</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bala & Sweetie Life!</h1>
+        <p>You are my everything.</p>
+    </header>
+<section class="message">
+        <p>Every moment with you feels like magic. Thank you for making my life so wonderful. I love you more every day!</p>
+        <h2> <a href="valentine.html">Valentine Present </a></h2>
+    </section>
+<footer>
+        <p>With all my love, <strong>Bala</strong></p>
+    </footer>
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+                console.log('Service Worker registered with scope:', registration.scope);
+            }).catch(function(error) {
+                console.log('Service Worker registration failed:', error);
+            });
+        });
+    }
+</script>
+</html>

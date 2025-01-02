@@ -1,0 +1,72 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+/* Header Styling */
+header {
+    background-color: #ff4c6d;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+header p {
+    font-size: 18px;
+}
+/* Message Section Styling */
+.message {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.message h2 {
+    font-size: 28px;
+    color: #ff4c6d;
+    margin-bottom: 20px;
+}
+.message p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* Footer Styling */
+footer {
+    background-color: #ff4c6d;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+/* Mobile Optimization */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+    
+    .message h2 {
+        font-size: 24px;
+    }
+.message p {
+        font-size: 14px;
+    }
+footer {
+        font-size: 14px;
+    }
+}
+/* Style the valentine image */
+.valentine-image {
+    width: 100%;  /* Makes the image take up the full width of its container */
+    max-width: 600px;  /* Limits the image to a maximum width */
+    border-radius: 10px;  /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds shadow to the image */
+    margin-top: 20px;
+}

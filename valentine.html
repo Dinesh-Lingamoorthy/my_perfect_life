@@ -1,0 +1,39 @@
+<link rel="manifest" href="manifest.json">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Life</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Happy Valentine's Day, My Brownie!</h1>
+        <p>You are my everything.</p>
+    </header>
+<section class="message">
+        <h2>My Sweetie,</h2>
+        <p>Every moment with you feels like magic. Thank you for making my life so wonderful. I love you more every day!</p>
+        <img src="images/couple.png" alt="A special moment with my Valentine" class="valentine-image">
+        <p>Every moment with you feels like magic. Thank you for making my life so wonderful. I love you more every day!</p>
+        <img src="images/couple2.jpg" alt="A special moment with my Valentine" class="valentine-image">
+        <h2> <a href="index.html">Back to Home </a></h2>
+    </section>
+<footer>
+        <p>With all my love, <strong>Bala</strong></p>
+    </footer>
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+                console.log('Service Worker registered with scope:', registration.scope);
+            }).catch(function(error) {
+                console.log('Service Worker registration failed:', error);
+            });
+        });
+    }
+</script>
+</html>

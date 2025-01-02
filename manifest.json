@@ -1,0 +1,21 @@
+{
+    "name": "Valentine's Love Note",
+    "short_name": "Love Note",
+    "description": "A sweet Valentine's Day message",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ff4c6d",
+    "theme_color": "#ff4c6d",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
