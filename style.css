@@ -76,7 +76,7 @@ footer {
 .column {
     float: left;
     width: 25%;
-    padding: 10px;
+    padding: 2px;
   }
   
   /* Style the images inside the grid */
@@ -101,28 +101,17 @@ footer {
     position: relative;
     display: none;
   }
-  
-  /* Expanding image text */
-  #imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-  }
-  
+
   /* Closable button inside the image */
   .closebtn {
-    position: below;
+    position: below,absolute;
     top: 10px;
-    right: 15px;
+    right: 10px;
     color: white;
-    font-size: 35px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 1px;
     width: 50%;  /* Makes the image take up the full width of its container */
     max-width: 50px;  /* Limits the image to a maximum width */
-    border-radius: 10px;  /* Adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds shadow to the image */
     margin-top: 20px;
   }
