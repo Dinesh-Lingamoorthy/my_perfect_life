@@ -120,8 +120,8 @@ footer {
     font-size: 35px;
     cursor: pointer;
     border-radius: 10px;
-    width: 60%;  /* Makes the image take up the full width of its container */
-    max-width: 500px;  /* Limits the image to a maximum width */
+    width: 50%;  /* Makes the image take up the full width of its container */
+    max-width: 50px;  /* Limits the image to a maximum width */
     border-radius: 10px;  /* Adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds shadow to the image */
     margin-top: 20px;
