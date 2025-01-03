@@ -17,17 +17,17 @@
         <p>Every moment with you feels like magic. Thank you for making my life so wonderful. I love you more every day!</p>
         <h2> <a href="valentine.html">Valentine Present </a></h2>
     </section>
-    <div class="row">
         <div class="row">
-          <img src="images/solo2.jpg" class="valentine-image" onclick="myFunction(this);">
+        <div class="column">
+          <img src="images/solo2.jpg" onclick="myFunction(this);">
         </div>
-        <div class="row">
-            <img src="images/solo.jpg" class="valentine-image" onclick="myFunction(this);">
+        <div class="column">
+            <img src="images/solo.jpg" onclick="myFunction(this);">
         </div>
-        <div class="row">
-          <img src="images/jimikki.jpg" class="valentine-image" onclick="myFunction(this);">
+        <div class="column">
+          <img src="images/jimikki.jpg" onclick="myFunction(this);">
         </div>
-      </div>
+        </div>
       
       <!-- The expanding image container -->
       <div class="container">
@@ -44,15 +44,4 @@
         <p>With all my love, <strong>Bala</strong></p>
     </footer>
 </body>
-<script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-                console.log('Service Worker registered with scope:', registration.scope);
-            }).catch(function(error) {
-                console.log('Service Worker registration failed:', error);
-            });
-        });
-    }
-</script>
 </html>

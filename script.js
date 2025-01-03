@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create a heart element dynamically
     let heart = document.createElement('div');
     heart.innerHTML = '❤️'; // Use the heart emoji
-    heart.style.fontSize = '50px';
+    heart.style.fontSize = '60px';
     heart.style.position = 'fixed';
     heart.style.bottom = '10px';
     heart.style.right = '10px';
