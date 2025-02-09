@@ -9,7 +9,7 @@ body {
 }
 /* Header Styling */
 header {
-    background-color: #ff0072;
+    background-color: #ff0055;
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -32,7 +32,7 @@ header p {
 }
 .message h2 {
     font-size: 28px;
-    color: #ff0072;
+    color: #ff0055;
     margin-bottom: 20px;
 }
 .message p {
@@ -41,7 +41,7 @@ header p {
 }
 /* Footer Styling */
 footer {
-    background-color: #ff0072;
+    background-color: #ff0055;
     color: white;
     padding: 20px;
     margin-top: 40px;
