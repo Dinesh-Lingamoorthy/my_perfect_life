@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./public/css/style.css" />
   </head>
   <body>
+    <audio id="audio" autoplay muted>
+      <source src="song/song.mp3" type="audio/mpeg" />
+    </audio>
     <p>Let's Flip a coin. Heads, I'm Yours. Tails, You're Mine</p>
     <div class="container">
       <div class="banner-gif">
@@ -21,10 +24,24 @@
         <h2 id="success-message">Yepppie, I promise to always by your side, or Under you or On top </h2>
         <h2 id="success-message">I am yours</h2>
         <h2 id="success-message">No Refunds</h2>
-        <h6>Creator: <a class="creator" href="https://github.com/balajivb25">Bala&Sweetie ;)</a></h6>
+        <h6>Creator: <a class="creator" href="https://github.com/balajivb25">Bala & Sweetie ;)</a></h6>
         <h2> <a href="index.html"> Back to Home </a></h2>
       </div>
     </div>
+    <script>
+   
+      function playAudioAfterDelay(delay) {
+          setTimeout(function() {
+              var audio = document.getElementById("audio");
+              audio.muted = false;
+              audio.play().catch(function(error) {
+                  console.error("Error playing audio:", error);
+              });
+          }, delay);
+      }
+
+      playAudioAfterDelay(2000); 
+  </script>
     <script src="./public/js/script.js"></script>
   </body>
 </html>
