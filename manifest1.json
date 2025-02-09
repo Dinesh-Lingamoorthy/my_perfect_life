@@ -1,0 +1,9 @@
+{
+    "name": "Valentine's Love Note",
+    "short_name": "Love Note",
+    "description": "A sweet Valentine's Day message",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ff8b4c",
+    "theme_color": "#ff4c6d"
+}
