@@ -20,3 +20,7 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+document.addEventListener("click", function() {
+    let audio = document.querySelector("audio");
+    audio.muted = false;
+});
